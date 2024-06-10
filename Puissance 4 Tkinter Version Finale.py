@@ -1,6 +1,7 @@
 from tkinter import*
 import random as rd
 import tkinter as tk
+
 fen=tk.Tk()
 fen.title('Puissance 4')
 fen.geometry('1200x800')
@@ -47,6 +48,7 @@ bouton4=tk.Button(fen,text=' 4 ',command=lambda:poser_dans_colonne(4))
 bouton5=tk.Button(fen,text=' 5 ',command=lambda:poser_dans_colonne(5))
 bouton6=tk.Button(fen,text=' 6 ',command=lambda:poser_dans_colonne(6))
 bouton7=tk.Button(fen,text=' 7 ',command=lambda:poser_dans_colonne(7))
+
 bouton1.place(x=293,y=50)
 bouton2.place(x=393,y=50)
 bouton3.place(x=493,y=50)
