@@ -20,7 +20,7 @@ label.config(font=("Courier", 20))
 label.pack(pady=10)
 
 def poser_dans_colonne(c):
-    global a,grille
+    global a
     b=len(grille[c-1])
     if a<41:#limite le nombre de jetons possibles à 42 (6x7)
         if b<6:
