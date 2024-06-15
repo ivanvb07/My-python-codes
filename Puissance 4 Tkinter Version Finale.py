@@ -2,6 +2,7 @@ from tkinter import*
 import random as rd
 import tkinter as tk
 
+grille=[[],[],[],[],[],[],[]]
 fen=tk.Tk()
 fen.title('Puissance 4')
 fen.geometry('1200x800')
